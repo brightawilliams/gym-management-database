@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gym-management-database"
+version = "0.1.0"
+description = "Normalized SQLite gym operations database with Python reporting"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{name = "Bright Addey Williams"}]
+
+[project.scripts]
+gym-database-report = "gym_database.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
