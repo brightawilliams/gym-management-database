@@ -1,10 +1,11 @@
 __pycache__/
 *.py[cod]
+.pytest_cache/
 .venv/
+venv/
 *.db
 *.sqlite3
 dist/
 build/
 *.egg-info/
 gym_report.md
-

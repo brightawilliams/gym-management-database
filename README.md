@@ -1,5 +1,7 @@
 # Gym Management Database
 
+[![Tests](https://github.com/brightawilliams/gym-management-database/actions/workflows/tests.yml/badge.svg)](https://github.com/brightawilliams/gym-management-database/actions/workflows/tests.yml)
+
 A normalized SQLite database and Python reporting project for managing gym
 memberships, payments, trainers, classes, bookings, and attendance.
 
@@ -90,4 +92,3 @@ PYTHONPATH=src python -m unittest discover -s tests -v
 - Add membership check-in events and retention cohorts
 - Create a web dashboard for staff
 - Add role-based access for reception, trainers, and managers
-
